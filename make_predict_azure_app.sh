@@ -23,7 +23,7 @@ curl -d '{
    "LSTAT":{
       "0":4.98
    }
-}'\
-     -H "Content-Type: application/json" \
+}'
+     -H "Content-Type: application/json"
      -X POST https://flask-ml-seviceless.azurewebsites.net:$PORT/predict
      #your application name <yourappname>goes here
